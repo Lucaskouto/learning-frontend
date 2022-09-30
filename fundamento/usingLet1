@@ -4,3 +4,6 @@ var numero = 1
     console.log('Dentro =', numero)
 }
 console.log('fora =', numero);
+
+// Variaveis definidos com a variavel var tem escopo global e de função
+// Variaveis com let tem escopo global, função e de bloco

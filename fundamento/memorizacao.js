@@ -95,5 +95,26 @@ obj1.estado = 'RIO DE JANEIRO';
 console.log(obj1)
 
 
+// Funções
+
+function somaFunc(a, b) {
+    return a + b
+};
+
+console.log(somaFunc(2, 3));
+
+subtracaoFunc = (a, b) => {
+    return a - b
+};
+console.log(subtracaoFunc(2, 3));
+
+divisaoFunc = (a = 2, b = 3) => a / b
+console.log(divisaoFunc());
+
+// Hoisting
+
+console.log(n)
+var n = 'N= ' + 1
+
 
 

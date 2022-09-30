@@ -17,12 +17,3 @@ const prod2 = {
 console.log(prod2);
 
 console.log(typeof prod1);
-
-const funcaoObj = function() {
-   return const joia = {
-        nome: 'rubi',
-        preco: 5425.54
-    }
-}
-
-console.log(funcaoObj())
