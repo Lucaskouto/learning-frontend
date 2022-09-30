@@ -16,7 +16,6 @@ function teste() {
     var local = 123
 }
 
-var local 
 teste()
 console.log(local)
 
