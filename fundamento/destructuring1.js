@@ -1,22 +1,25 @@
-// novo recurso ES2015
+// #Destructuring. Novo recurso introduzido no ES2015
+// Operador de desestruturação, extrai os atributos de dentro de uma estrutura, sendo elementos de um array ou elementos de um objeto
 
-const pessoa = {
-    nome: 'Ana',
-    idade: 5,
-    endereco: {
-        logradouro: 'Rua ABC',
-        cidade: 'Teresopolis'
+const grandesAntigos = {
+    nome: 'Cthulhu',
+    raça: 'Deus Antigo',
+    ameaça: 'cosmica',
+    caracteristicas: {
+        cabeça: 'Polvo com tentaculos',
+        corpo: 'Antropomófico',
+        tronco: 'Revestido de escamas',
     }
 }
 
-const { nome, idade } = pessoa
-console.log(nome, idade)
+const { nome, raça } = grandesAntigos
+console.log(nome, raça)
 
-const { nome: i, idade: n} = pessoa
-console.log(i, n)
+const { nome: n, raça: r } = grandesAntigos
+console.log(n, r)
 
-const { sobrenome, bemHumorada = true } = pessoa
-console.log(sobrenome, bemHumorada)
+const { terror, especial = true } = grandesAntigos
+console.log(terror, especial)
 
-const { endereco: { logradouro, cidade, cep = 25995}} = pessoa
-console.log(logradouro, cidade, cep)
+const { caracteristicas: { cabeça, corpo } } = grandesAntigos
+console.log(corpo, cabeça)
