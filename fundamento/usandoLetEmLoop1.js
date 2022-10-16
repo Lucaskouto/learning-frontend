@@ -1,6 +1,7 @@
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {       // Laço for
     console.log(i)
 }
 
 console.log('Valor de I =', i) // Variavel let dentro do escopo de bloco não é entendida no escopo global
+
 

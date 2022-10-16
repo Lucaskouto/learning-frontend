@@ -6,5 +6,5 @@ for (let i = 0; i < 10; i++) {
     })
 }
 
-funcs[8]()
-funcs[6]()
+funcs[]()
+// funcs()
