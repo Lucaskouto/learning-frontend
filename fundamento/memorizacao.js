@@ -79,7 +79,7 @@ console.log(!true);
 
 const isRaining = 'Tomorrow will be raining';
 
-console.log(isRaining || 'Tomorrow will be a sunny day');
+console.log(!isRaining || 'Tomorrow will be a sunny day');
 
 // Object 
 
