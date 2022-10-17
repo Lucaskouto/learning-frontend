@@ -9,4 +9,3 @@ console.log(rand([992]))
 console.log(rand([, 10]))
 console.log(rand([]))
 // console.log(rand())
-

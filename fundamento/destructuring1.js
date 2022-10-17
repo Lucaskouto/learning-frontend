@@ -1,5 +1,5 @@
 // #Destructuring. Novo recurso introduzido no ES2015
-// Operador de desestruturação, extrai os atributos de dentro de uma estrutura, sendo elementos de um array ou elementos de um objeto
+// Operador de desestruturação, extrai os atributos de dentro de uma estrutura, sendo elementos de um array ou atributos de um objeto
 
 const grandesAntigos = {
     nome: 'Cthulhu',
