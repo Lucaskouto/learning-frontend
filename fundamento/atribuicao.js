@@ -15,3 +15,6 @@ console.log(b)
 
 b %= 2 // b = b % 2 / atribuição modular se for par = 0 impar = 1
 console.log(b)
+
+b ** 2 // b = b ^ 2 / atribuição exponencial 
+console.log(b)
